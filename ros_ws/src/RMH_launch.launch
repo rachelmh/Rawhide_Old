@@ -1,0 +1,10 @@
+ <launch>
+   <param name="robot_description" textfile="/home/rachel/ros_ws/src/sawyer_rmh_moveit/config/RTKtest/dual_arms_3_6.xml" />
+   
+   <arg name="gui" default="False" />
+   <param name="use_gui" value="$(arg gui)"/>
+   <node name="my_joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" >
+    <rosparam param="source_list">["sawyer/joint_states"]</rosparam> </node>
+   <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+   <node name="rviz" pkg="rviz" type="rviz" />
+ </launch>

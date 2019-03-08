@@ -1,0 +1,8 @@
+ <launch>
+   <param name="robot_description" textfile="/home/rachel/ros_ws/src/sawyer_rmh_moveit/config/RTKtest/dual_arms_12_12.xml" />
+   <arg name="gui" default="True" />
+   <param name="use_gui" value="$(arg gui)"/>
+   
+   <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+   <node name="rviz" pkg="rviz" type="rviz" />
+ </launch>
