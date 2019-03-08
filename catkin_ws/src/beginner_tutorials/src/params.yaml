@@ -1,0 +1,12 @@
+background_b: 255
+background_g: 86
+background_r: 150
+rosdistro: 'kinetic
+
+  '
+roslaunch:
+  uris: {host_wireharness_dell__36245: 'http://wireharness-dell:36245/'}
+rosversion: '1.12.13
+
+  '
+run_id: 6bb48eb6-a0ab-11e8-9b87-10653066c889

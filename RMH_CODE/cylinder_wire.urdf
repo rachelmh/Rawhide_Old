@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<robot name="myfirst">
+    
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>  
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="/home/rachel/Desktop/RMH_CODE/cabinet_simple_1_30_2.STL" scale="1 1 1 "/>
+        
+      </geometry>
+      <material name="blue"/>
+
+
+    </visual>
+
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+        <geometry>
+           <mesh filename="/home/rachel/Desktop/RMH_CODE/cabinet_simple_1_30_2.STL" scale="1 1 1 "/>
+        </geometry>
+    </collision>
+  </link>
+</robot>

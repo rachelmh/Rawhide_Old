@@ -1,0 +1,39 @@
+controller_list:
+  - name: fake_captain_controller
+    joints:
+      - right_j01
+      - head_pan1
+      - right_j11
+      - right_j21
+      - right_j31
+      - right_j41
+      - right_j51
+      - right_j61
+  - name: fake_poirot_controller
+    joints:
+      - right_j0
+      - head_pan
+      - right_j1
+      - right_j2
+      - right_j3
+      - right_j4
+      - right_j5
+      - right_j6
+  - name: fake_dual-arms_controller
+    joints:
+      - right_j01
+      - head_pan1
+      - right_j11
+      - right_j21
+      - right_j31
+      - right_j41
+      - right_j51
+      - right_j61
+      - right_j0
+      - head_pan
+      - right_j1
+      - right_j2
+      - right_j3
+      - right_j4
+      - right_j5
+      - right_j6

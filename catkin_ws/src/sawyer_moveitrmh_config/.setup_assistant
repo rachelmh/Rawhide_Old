@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ""
+    relative_path: /home/rachel/catkin_ws/src/RTKtest/two_sawyer_urdf.urdf (copy).xml
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/sawyer.srdf
+  CONFIG:
+    author_name: Rachel Hoffman
+    author_email: rachelmh@mit.edu
+    generated_timestamp: 1544645308
